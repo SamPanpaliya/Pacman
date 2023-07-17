@@ -1,4 +1,4 @@
-# Pac-Man DFS Maze Solver
+# PacMan DFS Maze Solver
 
 This project implements a Pac-Man agent to find paths through a maze world using the Depth First Search (DFS) algorithm. The goal is to find a path to a specific location within the maze and display intermediate solutions as well as the final path.
 
