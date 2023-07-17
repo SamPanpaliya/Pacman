@@ -1,16 +1,25 @@
-*********************************
-NAME: Samiksha Panpaliya
-ROLL NO: E2-18
-SEC: E(AIML)
+# Pac-Man DFS Maze Solver
 
-*********************************
+This project implements a Pac-Man agent to find paths through a maze world using the Depth First Search (DFS) algorithm. The goal is to find a path to a specific location within the maze and display intermediate solutions as well as the final path.
 
-1. There are 2 python files, the first one is the main file in which functions are called from the second file containing all the important functions called in the main file.
+## How it Works
 
-2. A DFS Function is used to perform the search.
+- Two Python files: The main file calls functions from a secondary file containing essential functions.
+- DFS Algorithm: The Pac-Man agent uses the DFS algorithm to explore the maze, prioritizing deep paths before backtracking.
+- Maze Creation: The "pyMaze" file creates the Pac-Man maze using a library.
+- Intermediate Solutions: The program generates intermediate solutions, showing Pac-Man's progress.
+- Final Path: Once the goal is reached, the program displays the optimal path taken by Pac-Man.
 
-3. A maze is developed in another file named pyMaze,a library is imported and the maze for Pacman is developed accordingly.
+## Running the Program
 
-4. The DFS path is traced through tracePath function.
+1. Install Python 3.0 (64 bit).
 
-5. To run the program ,we directly need to compile the main.py file and the output on a python 3.0 (64 bit) app.
+2. Download the project files from the repository.
+
+3. Execute `main.py` using the command: `python main.py`.
+
+4. Follow the on-screen prompts to view intermediate solutions and the final path.
+
+## Contributions
+
+Contributions to this project are welcome via pull requests.
